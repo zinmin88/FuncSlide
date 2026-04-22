@@ -1,0 +1,18 @@
+Package: FuncSlide
+Title: Sliding Window Functions for Time Series Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person("Zin Min Thet", "Lwin", email = "zin.min.thet.lwin@ihe.se", role = c("aut"))
+Description: Provides tools for processing and analyzing multidimensional
+    time series data using sliding window techniques. The package includes
+    functions to import data from CSV files, compute a combined acceleration
+    vector using the Euclidean norm, and apply customizable window-based
+    functions such as mean smoothing, binary classification, and threshold
+    filtering. It also offers visualization tools to compare raw and processed
+    signals using ggplot2.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    ggplot2
