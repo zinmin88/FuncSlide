@@ -2,7 +2,7 @@ Package: FuncSlide
 Title: Sliding Window Functions for Time Series Analysis
 Version: 0.0.0.9000
 Authors@R: 
-    person("Zin Min Thet", "Lwin", email = "zin.min.thet.lwin@ihe.se", role = c("aut"))
+    person("Zin Min", "Thet Lwin", email = "zinmin20@gmail.com", role = c("aut"))
 Description: Provides tools for processing and analyzing multidimensional
     time series data using sliding window techniques. The package includes
     functions to import data from CSV files, compute a combined acceleration
