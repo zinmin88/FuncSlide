@@ -152,6 +152,10 @@ window_threshold <- function(x, threshold) {
 #' Iteratively applies a selected window function to consecutive windows
 #' in a chosen column of a data frame and stores the results in a new column.
 #'
+#' @note
+#' To compute multiple outputs (e.g., mean, binary, threshold),
+#' this function must be called separately for each window function.
+#'
 #' @param data Data frame containing the time series.
 #' @param column Character. Name of the column to process.
 #' @param window_size Integer. Number of observations in each window.
@@ -207,6 +211,11 @@ sliding_window <- function(data, column, window_size, window_fun, output_col, ..
 #'
 #' Creates a line plot of the combined vector signal together with
 #' selected processed columns such as mean, binary, or threshold.
+#'
+#' @note
+#' The user can choose to display any combination of processed signals
+#' (mean, binary, and threshold) by setting the corresponding arguments
+#' to TRUE or FALSE.
 #'
 #' @param data Data frame containing the time series and processed columns.
 #' @param time_col Character. Name of the time column to use on the x-axis.

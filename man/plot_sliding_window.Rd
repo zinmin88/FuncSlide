@@ -33,6 +33,11 @@ A ggplot object.
 Creates a line plot of the combined vector signal together with
 selected processed columns such as mean, binary, or threshold.
 }
+\note{
+The user can choose to display any combination of processed signals
+(mean, binary, and threshold) by setting the corresponding arguments
+to TRUE or FALSE.
+}
 \examples{
 \dontrun{
 plot_sliding_window(

@@ -27,6 +27,10 @@ window results.
 Iteratively applies a selected window function to consecutive windows
 in a chosen column of a data frame and stores the results in a new column.
 }
+\note{
+To compute multiple outputs (e.g., mean, binary, threshold),
+this function must be called separately for each window function.
+}
 \examples{
 \dontrun{
 data <- sliding_window(
